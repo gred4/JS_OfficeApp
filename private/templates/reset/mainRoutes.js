@@ -9,4 +9,3 @@ FlowRouter.route('/', {
     return import('../components/Home/HomeComponent.js')
   },
 })
-

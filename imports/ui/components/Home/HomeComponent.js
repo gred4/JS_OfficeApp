@@ -6,6 +6,7 @@ import '../base/Container.html'
 import '../base/Link.html'
 import '../base/Button.html'
 import './HomeComponent.html'
+import './About.html'
 
 Template.Home.helpers({
   settings () {

@@ -1,7 +1,7 @@
 import { FlowRouter } from 'meteor/ostrio:flow-router-extra'
 
 FlowRouter.route('/', {
-  title: 'Boilerplate Home',
+  title: 'esee',
   action() {
     this.render('mainLayout', 'Home')
   },
