@@ -1,0 +1,69 @@
+<template name="Home">
+  <div class="parallax">
+  <!-- top header -->
+  <div class="dt dt--fixed bg-redtoyellow">
+    <div class="dtc tl pl7-m"><h1 class="f2 lh-title font-poppins dark-blue">esee</h1></div>
+    <div class="dtr tr font-poppins dark-blue"><h3 id=date></h3></div>
+      <script>var d = new Date(); document.getElementById("date").innerHTML = d.toUTCString();</script>
+  </div>
+    <div class="f2-l f3 mt2 font-roboto-slab">Office dashboard</div>
+    <div class="f3">
+      <i class="ion-arrow-down-a icon"></i>
+    </div>
+
+  <!-- subheader -->
+  {{#ContentContainer containerClasses="bg-washed-blue dark-gray" }}
+    <div class="font-roboto-slab f2-l f3 lh-copy">
+    </div>
+  {{/ContentContainer}}
+
+  <!--Body -->
+  <!--sub footer -->
+    <div class="fl w-25 tc pv5 bg-black-05">
+      <div class="tc">
+        {{#Button href="https://intranet.alten.nl/login?next=%2F"}}
+          Alten Intranet
+        {{/Button}}
+      </div>
+    </div>
+  <div class="fl w-25 tc pv5 bg-black-05">
+    <div class="tc">
+      {{#Button href="http://www.alten.nl/"}}
+        Alten Website
+      {{/Button}}
+    </div>
+  </div>
+  <div class="fl w-25 tc pv5 bg-black-05">
+    <div class="tc">
+      {{#Button href="https://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwikitvg4b3YAhUF_qQKHTCVA6AQFggsMAA&url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Falten-nederland&usg=AOvVaw3I1DnDf3OWHqko25lPonK6"}}
+        Alten Linkedin
+      {{/Button}}
+    </div>
+  </div>
+  <div class="fl w-25 tc pv5 bg-black-05">
+    <div class="tc">
+      {{#Button href="https://twitter.com/altennl?lang=en"}}
+        Alten Twitter
+      {{/Button}}
+    </div>
+  </div>
+
+  {{#ContentContainer containerClasses="bg-washed-blue mid-gray" }}
+    <div class="font-roboto-slab f2-l f3 lh-solid">
+      <div class="ph4 pv3 tdc">
+          <div class="w-25 tc">
+            {{#Button href="About.html"}}
+            About
+            {{/Button}}    </div>
+      </div>
+    </div>
+  {{/ContentContainer}}
+
+
+<!-- picture gallery -->
+
+</div>
+
+
+  <!--Footer -->
+</template>
